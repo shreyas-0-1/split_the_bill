@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-import numpy as np
 
 '''
     Version 1 complete
@@ -84,7 +83,7 @@ class BillSplitter:
         '''
         try:
             self.ind_payments = [float(x.get()) for x in self.payment_answers]
-            total = np.sum(self.ind_payments)
+            total = sum(self.ind_payments)
             per_person = total/self.grp_num
 
             output = f"The total amount to be paid is ${total:.2f}.\n\n"

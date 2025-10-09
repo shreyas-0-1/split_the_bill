@@ -11,7 +11,6 @@ It fully supports multiple people paying unevenly.
 * Language: Python
 * Modules:
   * Tkinter
-  * NumPy
 
 ## Project Launching
 ```bash
